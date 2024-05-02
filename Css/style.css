@@ -64,6 +64,9 @@ body {
     font-size: 32px;
     font-weight: 700;
 }
+.weight-bold{
+    font-weight: 700;
+}
 .text-style{
     
     font-weight: 700;
@@ -71,6 +74,13 @@ body {
 }
 .text-styles{
     font-weight: 500;
+}
+
+.text-position1{
+    text-align: end;
+}
+.text-position3{
+    text-align: center;
 }
 .text-name{
     font-family: "Inter", sans-serif;
