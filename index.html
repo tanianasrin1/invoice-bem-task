@@ -14,7 +14,7 @@ body {
 .container {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    
     border: 1px solid #ccc;
     border-radius: 8px;
 }
@@ -30,7 +30,6 @@ body {
     justify-content: space-between;
     align-items: start;
     
-    /* border: 1px solid red; */
 }
 
 .invoice-header img {
@@ -54,13 +53,12 @@ body {
 .invoice-body th, .invoice-body td {
     padding: 10px;
 }
-/* .invoice-footer {
-    margin-top: 20px;
-}
 
-.invoice-footer p {
-    font-weight: bold;
-} */
+.signature{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 
 </style>
 </head>
@@ -128,46 +126,56 @@ body {
             </tr>
             <tr >
                 <td><strong>Terms & Conditions:</strong></td>
-                <td style="text-align: center;">Subtotal:</td>
-                <td style="text-align: center;">$1600.00</td>
+                <td style="text-align: start;">Subtotal:</td>
+                <td style="text-align: start;">$1600.00</td>
+                <td style="text-align: start;"></td>
                
             </tr>
             <tr>
-                <td>Galaxy Tab S6 Lite - 2022 Edition</td>
-                <td style="text-align: center;">1</td>
-                <td style="text-align: center;">$200.00</td>
-                <td style="text-align: end;">$200.00</td>
+                <td style="font-weight: bold; font-size: 10px;">The payment must be made within 30 days.</></td>
+                <td style="text-align: start;">Tax(5%):</td>
+                <td style="text-align: start;">$80.00</td>
+                <td style="text-align: end;"></td>
             </tr>
             <tr>
-                <td>Galaxy Tab S6 Lite - 2022 Edition</td>
-                <td style="text-align: center;">1</td>
-                <td style="text-align: center;">$200.00</td>
-                <td style="text-align: end;">$200.00</td>
+                <td></td>
+                <td style="text-align: start;"><strong> Total:</strong></td>
+                <td style="text-align: start;">$1680.00</td>
+                <td style="text-align: end;"></td>
             </tr>
             <tr>
-                <td>Galaxy Tab S6 Lite - 2022 Edition</td>
-                <td style="text-align: center;">1</td>
-                <td style="text-align: center;">$200.00</td>
-                <td style="text-align: end;">$200.00</td>
+                <td></td>
+                <td style="text-align: start;">Partial period</td>
+                <td style="text-align: start;">3 Months</td>
+                <td style="text-align: end;"></td>
             </tr>
             <tr>
-                <td>Galaxy Tab S6 Lite - 2022 Edition</td>
-                <td style="text-align: center;">1</td>
-                <td style="text-align: center;">$200.00</td>
-                <td style="text-align: end;">$200.00</td>
+                <td></td>
+                <td style="text-align: start;">Each Months</td>
+                <td style="text-align: start;">$560.00</td>
+                <td style="text-align: end;"></td>
             </tr>
             <!-- Additional rows here -->
         </table>
     </div>
-    <!-- <div class="invoice-footer">
-        <p>Subtotal: $1600.00</p>
-        <p>Tax(5%): $80.00</p>
-        <p>Total: $1680.00</p>
-        <p>Partial period: 3 Months</p>
-        <p>Each Month: $560.00</p>
-        <p>Terms & Conditions: The payment must be made within 30 days.</p>
-    </div> -->
+    <div class="signature">
+        <div>
+            <p>Khalid Istiaq</p>
+            <p>UX Designer, BemGroup</p>
+        </div>
+        <div style="width: 50%; background-color: #284b63; padding: 10px; height: 20px; text-align: center; ">
+            <a href="" class="signature-style"  style="color: #ccc;">Pay Now $1,680.00</a>
+        </div>
+    </div>
+
+    <div style="background-color: #284b63; height: 47px;">
+        <hr>
+    </div>
+
+    
 </div>
+
+
 
 </body>
 </html>
