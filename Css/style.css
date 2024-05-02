@@ -4,6 +4,7 @@ body {
     font-family: "Fira Sans", sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 12px;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 
 .invoice-header,
 .invoice-body,
-.invoice-footer {
+.footers{
     padding: 20px;
 }
 
@@ -56,15 +57,22 @@ body {
 
 
 /* footer */
+.footers{
+    background-color: #284b63;
+    height: auto;
+}
 .invoice-footer {
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: center; 
     color: white;
+    
+}
+
+.hr-cls{
+    padding: 7px auto;
 }
 .footer-img{
     width: 5.25px;
-    
-
 }
