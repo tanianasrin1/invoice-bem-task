@@ -14,7 +14,6 @@ body {
 .container {
     max-width: 800px;
     margin: 20px auto;
-    
     border: 1px solid #ccc;
     border-radius: 8px;
 }
@@ -28,12 +27,14 @@ body {
 .invoice-header {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    /* border:  1px solid red; */
+    /* align-items: start; */
     
 }
 
 .invoice-header img {
-    max-height: 50px;
+    width: 138px;
+    height: auto;
 }
 
 .invoice-body table {
@@ -70,7 +71,8 @@ body {
     color: white;
 }
 .footer-img{
-    max-height: 5.25px;
+    width: 5.25px;
+    
 
 }
 
@@ -91,9 +93,51 @@ body {
             <p><strong>Due Date:</strong> March 11, 2024</p>
         </div>
         <div>
-            <img src="Images/logoipsum-330 2.png" alt="Company Logo">
+            <!-- hhgghhhgbhbhbhggh -->
+            <div><img src="Images/logoipsum-330 2.png" alt="Company Logo"></div>
         </div>
     </div>
+    <div class="invoice-body">
+        <table>
+            
+            <tr>
+                <td colspan="2">Bill To</td>
+                <!-- <td style="text-align: center;">2</td>
+                <td style="text-align: center;">$200.00</td> -->
+                <td colspan="2" style="text-align: end;">Bill From</td>
+            </tr>
+            <tr>
+                <td colspan="2">David Bailey</td>
+                <!-- <td style="text-align: center;">2</td>
+                <td style="text-align: center;">$200.00</td> -->
+                <td colspan="2" style="text-align: end;">ABC Solutions Ltd.</td>
+            </tr>
+            <tr>
+                <td colspan="2">4517 Washington Ave, 
+                    <br>
+                    Manchester Kentucky 39495</td>
+                <!-- <td style="text-align: center;">2</td>
+                <td style="text-align: center;">$200.00</td> -->
+                <td colspan="2" style="text-align: end;">4517 Washington Ave. Manchester <br> Kentucky 39495</td>
+            </tr>
+            <tr>
+                <td colspan="2">david@gmail.com</td>
+                <!-- <td style="text-align: center;">2</td>
+                <td style="text-align: center;">$200.00</td> -->
+                <td colspan="2" style="text-align: end;">abc@gmail.com</td>
+            </tr>
+            <tr>
+                <td colspan="2">+62 21 123456</td>
+                <!-- <td style="text-align: center;">2</td>
+                <td style="text-align: center;">$200.00</td> -->
+                <td colspan="2" style="text-align: end;">+62 853 1234 5678</td>
+            </tr>
+           
+           
+            <!-- Additional rows here -->
+        </table>
+    </div>
+    <!-- table -->
     <div class="invoice-body">
         <table>
             <tr>
@@ -178,25 +222,27 @@ body {
     </div>
     <div class="signature">
         <div>
+            <img src="Images/path3035.png" alt="Company Logo">
             <p>Khalid Istiaq</p>
             <p>UX Designer, BemGroup</p>
         </div>
         <div style="width: 50%; background-color: #284b63; padding: 10px; height: 20px; text-align: center; ">
-            <a href="" class="signature-style"  style="color: #ccc;">Pay Now $1,680.00</a>
+            <a href="" class="signature-style"  style="color: white">Pay Now $1,680.00</a>
         </div>
     </div>
 
     <div style="background-color: #284b63; height: 55px;" >
-        <!-- <hr/> -->
+         <hr style="border-top: 1px solid white;">
         <div class="invoice-footer">
 
             <p>Created by</p>
         <div class="footer-img">
             <img src="Images/footer.png" alt="Company Logo">
         </div>
-        <p>Invoice us</p>
+        <p style="margin-left: 20px;">Invoice us</p>
         </div>
         
+       
 
     </div>
 
